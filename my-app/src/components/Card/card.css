@@ -18,3 +18,9 @@
   background: url(../../assets/images/icon-heart-on.svg) no-repeat center /
     contain;
 }
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
