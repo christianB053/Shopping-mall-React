@@ -1,4 +1,5 @@
 import ProductImage from "./ProductImage/ProductImage";
+import ProductName from "./ProductName/ProductName";
 import "./card.css";
 
 export default function Card({
@@ -12,7 +13,7 @@ export default function Card({
       <div className="product-img">
         <ProductImage {...{ thumbnailImg, productName }} />
       </div>
-      <strong>이름</strong>
+      <ProductName {...{ productName }} />
       <button></button>
       <div>
         <strong>할인가격</strong>

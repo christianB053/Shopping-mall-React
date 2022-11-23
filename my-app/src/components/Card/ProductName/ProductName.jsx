@@ -1,5 +1,5 @@
-import React from "react";
+import "./styled.css";
 
-export default function ProductName() {
-  return <div></div>;
+export default function ProductName({ productName }) {
+  return <strong className="product-name sl-ellipsis">{productName}</strong>;
 }
