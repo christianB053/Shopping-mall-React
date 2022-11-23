@@ -16,7 +16,7 @@ export default function HomePage() {
         <>
           <ul>
             {loadData.map((item) => (
-              <Card key={item.id} data={item} />
+              <Card key={item.id} {...item} />
             ))}
           </ul>
           <Cart />
