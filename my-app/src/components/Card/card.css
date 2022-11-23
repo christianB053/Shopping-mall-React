@@ -6,3 +6,15 @@
   border-radius: 10px;
   overflow: hidden;
 }
+
+.like-btn {
+  width: 22px;
+  height: 22px;
+  border: none;
+  background: url(../../assets/images/icon-heart.svg) no-repeat center / contain;
+}
+
+.like-btn.on {
+  background: url(../../assets/images/icon-heart-on.svg) no-repeat center /
+    contain;
+}
